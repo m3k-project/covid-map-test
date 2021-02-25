@@ -1,0 +1,132 @@
+
+      .titl{
+        font-family: Georgia, serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #a6f367;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: small-caps;
+        text-transform: capitalize;
+      }
+
+      .accurate{
+        color: white;
+        text-align: center;
+      }
+      
+      .button {
+        background-color: #f4511e;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 1;
+        transition: 0.3s
+        
+      }
+      
+      .button:hover {
+            opacity: 0.6
+      }
+
+            /* zoom */
+      .zoombtn {
+        background-color: #74f41e;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 10px;
+        margin: 1px 1px;
+        opacity: 10;
+        transition: 0.3s
+      
+        
+      }
+      
+      .zoombtn:hover {
+        opacity: 0.6
+      }
+
+      .zoomdiv{
+        align-items: center;
+        text-align: center;
+      }
+
+
+
+      body {
+        background: black;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      .data {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      .active {
+        color: blueviolet;
+      }
+      .confirmed {
+        color: crimson;
+      }
+      .recod {
+        color: greenyellow;
+      }
+      .died {
+        color: grey;
+      }
+      .caseFigActive,
+      .caseFigConfirmed,
+      .caseFigRecod,
+      .caseFigDied {
+        font-size: 20px;
+      }
+      svg {
+        height: 650px;
+        width: 100%;
+      }
+      .india {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 30px;
+        color: tomato;
+        margin-bottom: 50px;
+      }
+      .state-name {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 25px;
+        color: rgb(137, 99, 226);
+        margin-bottom: 50px;
+      }
+
+      
+      .formore{
+        text-align: center;
+      }
+
+      .credit{
+          text-align: center;
+          color: rgb(157, 158, 158);
+          font-family: Courier;
+          padding-bottom: 10%;
+      }
+
+      .wa-me{
+        color: #f1f1f1;
+      }
+
+      /* luminnence */
+
+      /* lumi... end */
